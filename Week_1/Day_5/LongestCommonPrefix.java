@@ -9,7 +9,7 @@ class Solution {
                 ans = ans.substring(0, ans.length() - 1);
             }
         }
-
+ 
         return ans;
     }
 }
