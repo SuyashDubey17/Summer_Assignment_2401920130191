@@ -17,7 +17,7 @@ class Solution {
                 char b = Character.toLowerCase(s.charAt(j));
 
                 if(a != b){
-                    return false;
+                    return false; 
                 }
 
                 i++;
