@@ -7,6 +7,7 @@ class Solution {
         Stack<String> stringStack = new Stack<>();
 
         String curr = "";
+        
         int num = 0;
 
         for(int i = 0; i < s.length(); i++){
