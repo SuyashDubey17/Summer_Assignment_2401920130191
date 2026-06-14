@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+    
     public String decodeString(String s) {
 
         Stack<Integer> countStack = new Stack<>();
