@@ -10,10 +10,8 @@ class Solution {
             String s = tokens[i];
 
             if(s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")){
-
                 int b = stack.pop();
                 int a = stack.pop();
-
                 if(s.equals("+")){
                     stack.push(a + b);
                 }
