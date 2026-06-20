@@ -1,9 +1,7 @@
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-
         int[] freq = new int[256];
-
         int left = 0;
         int maxLen = 0;
 
