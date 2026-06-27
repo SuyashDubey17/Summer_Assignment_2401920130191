@@ -14,8 +14,7 @@ public class Codec {
             sb.append("null,");
             return;
         }
-
-        sb.append(root.val).append(",");
+      sb.append(root.val).append(",");
 
         helper(root.left, sb);
         helper(root.right, sb);
