@@ -8,7 +8,6 @@ public class Codec {
         helper(root, sb);
         return sb.toString();
     }
-
     private void helper(TreeNode root, StringBuilder sb){
 
         if(root == null){
