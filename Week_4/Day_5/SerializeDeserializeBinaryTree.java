@@ -19,7 +19,6 @@ public class Codec {
         helper(root.left, sb);
         helper(root.right, sb);
     }
-
     public TreeNode deserialize(String data) {
 
         Queue<String> queue = new LinkedList<>(Arrays.asList(data.split(",")));
