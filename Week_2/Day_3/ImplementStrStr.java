@@ -10,7 +10,6 @@ class Solution {
                   haystack.charAt(i + j) == needle.charAt(j)){
                 j++;
             }
-
             if(j == needle.length()){
                 return i;
             }
