@@ -7,7 +7,6 @@ class Solution {
             slow = slow.next;
             fast = fast.next.next;
         }
-
         return slow;
     }
 }
