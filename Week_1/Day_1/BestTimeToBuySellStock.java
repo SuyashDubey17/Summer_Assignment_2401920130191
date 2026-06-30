@@ -5,8 +5,7 @@ class Solution {
         int bestProfit = 0;
 
         for(int day = 1; day < prices.length; day++) {
-
-            int currentPrice = prices[day];
+        int currentPrice = prices[day];
 
             if(currentPrice < buyPrice) {
                 buyPrice = currentPrice; 
