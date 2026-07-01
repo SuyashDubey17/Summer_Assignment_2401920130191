@@ -11,7 +11,6 @@ class Solution {
         queue.offer(root);
 
         while(!queue.isEmpty()){
-
             int size = queue.size();
             List<Integer> level = new ArrayList<>();
 
